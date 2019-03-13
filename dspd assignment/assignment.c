@@ -1016,7 +1016,7 @@ location  *load_database(cat_location **res,cat_location **pub,cat_location **ca
    }
   
 }
-location  Reinsert_into_database(location *all_eatspots)
+void Reinsert_into_database(location *all_eatspots)
 { 
    FILE *pFile;
    FILE *tFile;
